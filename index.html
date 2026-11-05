@@ -211,7 +211,7 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid 
 .mact{display:flex;gap:10px;margin-top:24px;flex-wrap:wrap}.mact .btn{flex:1 1 150px}
 .chk{display:flex;align-items:center;gap:12px;width:100%;text-align:right;min-height:52px;padding:6px 0;border-bottom:2px solid var(--soft)}
 .chk .cb{width:32px;height:32px;border-radius:11px;border-width:2.500px}.chk .cb .ic{width:18px;height:18px}.chk span.tx{flex:1;min-width:0}.chk small{display:block;font-size:14px;color:var(--ink2)}
-.popw{position:fixed;left:calc(26px + env(safe-area-inset-left,0px));bottom:calc(104px + env(safe-area-inset-bottom,0px));z-index:32;display:flex;align-items:flex-end;max-width:min(460px,calc(100% - 28px));animation:pop .55s cubic-bezier(.2,1.6,.5,1)}
+.popw{pointer-events:none;position:fixed;left:calc(26px + env(safe-area-inset-left,0px));bottom:calc(104px + env(safe-area-inset-bottom,0px));z-index:32;display:flex;align-items:flex-end;max-width:min(460px,calc(100% - 28px));animation:pop .55s cubic-bezier(.2,1.6,.5,1)}
 .popp{width:170px;height:176px;flex:none;animation:floaty 2.6s ease-in-out infinite}
 .popb{flex:1;background:var(--ink);color:#fff;border-radius:28px 28px 8px 28px;padding:16px 22px;margin-bottom:52px;margin-right:-8px;box-shadow:0 24px 50px -18px rgba(43,18,56,.7)}
 .popb strong{display:block;font-size:27px;line-height:1.12}.popb span{font-size:16px}
